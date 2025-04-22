@@ -31,10 +31,11 @@ button {
 
 button {
   font-weight: bold;
+  background-color: #007bff
 }
 
 button:hover {
-  background-color: #007bff;
+  background-color: #fff;
   color: white;
   cursor: pointer;
   transition-duration: 1s;
