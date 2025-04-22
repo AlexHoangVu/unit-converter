@@ -11,9 +11,9 @@ document.getElementById("convertButton").addEventListener("click", function () {
   resultEl.classList.remove("show"); // Xóa class cũ nếu có
 
   if (conversionType === "usdToVnd") {
-    resultEl.innerText = "Kết quả: " + (inputValue * 25980).toFixed(2) + " VND";
+    resultEl.innerText = "Kết quả: " + (inputValue * 25980).toLocaleString("vi-VN") + " VND";
   } else {
-    resultEl.innerText = "Kết quả: " + (inputValue / 25980).toFixed(2) + " USD";
+    resultEl.innerText = "Kết quả: " + (inputValue / 25980).toLocaleString("vi-VN") + " USD";
   }
 
   void resultEl.offsetWidth; // Trigger lại reflow
