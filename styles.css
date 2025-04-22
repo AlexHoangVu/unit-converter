@@ -29,6 +29,10 @@ button {
   transition: border-color 0.3s;
 }
 
+button {
+  font-weight: bold;
+}
+
 button:hover {
   background-color: #007bff;
   color: white;
